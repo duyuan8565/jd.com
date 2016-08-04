@@ -1,0 +1,526 @@
+/*面包屑导航开始*/
+#mian{
+	height: 24px;
+	line-height: 24px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#mian a.da{
+	font-weight: 700;
+	line-height: 20px;
+	font-size: 18px;
+	font-family: "microsoft yahei";
+}
+/*面包屑导航结束*/
+/*放大镜区域开始*/
+#fang{
+	width: 1210px;
+	height: 593px;
+}
+#fang .fang_l{
+	width: 352px;
+	height: 593px;
+	float: left;
+}
+#fang .fang_l .tu{
+	width: 350px;
+	height: 350px;
+	border:1px solid #ddd;
+	position: relative;
+}
+#fang .fang_l .tu a{
+	width: 350px;
+	height: 350px;
+	display: block;
+}
+#fang .fang_l .tu a img{
+	width: 350px;
+	height: 350px;
+}
+#fang .fang_l .tu span{
+	width: 175px;
+	height: 175px;
+	display: block;
+	position: absolute;
+	background: #FFEFA7;
+	left: 0px;
+	top:0px;
+	cursor: pointer;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	display: none;
+}
+#fang .fang_l .tu div.gai{
+	width: 350px;
+	height: 350px;
+	left: 0px;
+	top: 0px;
+	background: red;
+	position: absolute;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	cursor: pointer;
+}
+#fang .fang_l .tu div.large{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	left: 360px;
+	top: 0px;
+	border:1px solid #ddd;
+	overflow: hidden;
+	display: none;
+}
+#fang .fang_l .tu div.large img{
+	position: absolute;
+	left: 0px;
+	top:0px;
+}
+#fang .fang_l .lie{
+	width: 352px;
+	height: 54px;
+	margin-top: 5px;
+}
+#fang .fang_l .lie .lie_l{
+	width: 17px;
+	height: 54px;
+	float: left;
+	background: url(../images/newicon20140417.png)  -68px -139px no-repeat;
+	cursor: pointer;
+}
+#fang .fang_l .lie .lie_m{
+	width: 310px;
+	height: 54px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+#fang .fang_l .lie .lie_m ul{
+	height: 54px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#fang .fang_l .lie .lie_m ul li{
+	width: 50px;
+	height: 50px;
+	border:2px solid #CECFCE;
+	float: left;
+	margin-left: 8px;
+	cursor: pointer;
+}
+#fang .fang_l .lie .lie_m ul li img{
+	width:50px;
+	height: 50px;
+}
+#fang .fang_l .lie .lie_r{
+	width: 17px;
+	height: 54px;
+	float: right;
+	background: green;
+	background: url(../images/newicon20140417.png)  -85px -139px no-repeat;
+	cursor: pointer;
+}
+#fang .fang_r{
+	float: right;
+	width: 840px;
+	height: 400px;
+}
+#fang .fang_r .p1{
+	font:700 16px/1.5em Arial,Verdana,"microsoft yahei";
+}
+#fang .fang_r .p2{
+	padding-bottom: 10px;
+	font:700 16px/1.5em Arial,Verdana,"microsoft yahei";
+	color:red;
+	border-bottom:1px dotted #ccc;
+}
+#fang .fang_r p{
+	line-height: 30px;
+	color:#666;
+}
+#fang .fang_r p span{
+	background: red;
+	color: white;
+}
+#fang .fang_r p span.red_da{
+	color: red;
+	font-size: 14px;
+	background: none;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 微软雅黑;
+}
+#fang .fang_r p span.red{
+	color: red;
+	/*font-family: 微软雅黑;*/
+	background: none;
+}
+#fang .fang_r p.chose{
+	clear: both;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+#fang .fang_r p.chose span{
+	float: left;
+	background: none;
+	color:#666666;
+}
+#fang .fang_r p.chose a{
+	border:2px dashed #CCCCCC;
+	padding: 0 5px;
+	float: left;
+	margin-right: 5px;
+}
+#fang .fang_r p.chose a.xuan{
+	border:2px solid red;
+}
+#fang .fang_r p a.jia{
+	width: 150px;
+	height: 38px;
+	display: block;
+	line-height: 38px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	background: #E54447;
+	font-family: 微软雅黑;
+}
+#fang .fang_r p a{
+	color: #005aa0;
+}
+/*放大镜区域结束*/
+/*主体区域开始*/
+#content{
+	width: 1210px;
+	height: auto;
+	overflow:hidden;
+}
+#content .content_l{
+	width: 210px;
+	float: left;
+	height: auto;
+	overflow: hidden;
+	color: #666;
+	padding-top: 6px;
+}
+#content .content_l .erwei{
+	width: 208px;
+	height: 140px;
+	border: 1px solid #ddd;
+	position: relative;
+	background: url(../images/erwei.png) no-repeat center 10px;
+}
+#content .content_l .erwei p{
+	color: #666;
+	position: absolute;
+	top: 110px;
+	left: 30px;
+}
+#content .content_l .fenlei{
+	width: 208px;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+#content .content_l .fenlei h2{
+	height: 28px;
+	font-family: "microsoft yahei";
+	line-height: 28px;
+	text-indent: 20px;
+	background: #F7F7F7;
+}
+#content .content_l .fenlei ul{
+	overflow: hidden;
+}
+#content .content_l .fenlei ul li{
+	width: 100px;
+	float: left;
+	text-indent: 20px;
+	line-height: 25px;
+}
+#content .content_l .liulan{
+	width: 208px;
+	height: auto;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+#content .content_l .liulan h2{
+	height: 28px;
+	font-family: "microsoft yahei";
+	line-height: 28px;
+	text-indent: 20px;
+	background: #F7F7F7;
+}
+#content .content_l .liulan ul{
+	overflow: hidden;
+}
+#content .content_l .liulan li{
+	width: 208px;
+	height: 198px;
+	float: none;
+	position: relative;
+}
+#content .content_l .liulan li .a1{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+}
+#content .content_l .liulan li .a2{
+	padding-left: 10px;
+}
+#content .content_l .liulan li p{
+	width: 208px;
+	color: red;
+	text-align: center;
+}
+#content .content_l .pai{
+	width: 208px;
+	height: auto;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+#content .content_l .pai h2{
+	height: 28px;
+	font-family: "microsoft yahei";
+	line-height: 28px;
+	text-indent: 20px;
+	background: #F7F7F7;
+}
+#content .content_l .pai .biao{
+	width: 208px;
+	height: 22px;
+	margin-top: 10px;
+}
+#content .content_l .pai .biao li{
+	width: 60px;
+	height: 22px;
+	float: left;
+	background: #F7F7F7;
+	text-align: center;
+	margin-left: 5px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+#content .content_l .pai .nei{
+	width: 208px;
+	overflow: hidden;
+	display: none;
+
+}
+#content .content_l .pai .nei.active{
+	display: block;
+}
+#content .content_l .pai .nei li{
+	position: relative;
+	width: 208px;
+	height: auto;
+	overflow: hidden;
+	padding-top: 10px;
+	border-bottom: 1px dotted #DEDEDE;
+}
+#content .content_l .pai .nei li span{
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	color: red;
+	display: block;
+	background: url(../images/newicon20140417.png) no-repeat -232px -322px;
+	position: absolute;
+	left: 2px;
+	top: 5px;
+}
+#content .content_l .pai .nei li .l{
+	width: 70px;
+	height: 50px;
+	float: left;
+	margin-left: 20px;
+}
+#content .content_l .pai .nei li .r{
+	width: 116px;
+	float: right;
+}
+#content .content_l .pai .nei li .r p{
+	text-align: center;
+	color: red;
+}
+#content .content_r{
+	width: 990px;
+	padding-top: 6px;
+	overflow: hidden;
+	float: right;
+
+}
+#content .content_r .piao{
+	width: 988px;
+	height: 30px;
+	border-top: 2px solid #999999;
+	border-bottom: 1px solid #ddd;
+	background: #F7F7F7;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+#content .content_r .piao ul{
+	width: 988px;
+	height: 30px;
+	position: relative;
+}
+#content .content_r .piao ul li{
+	width: 128px;
+	position: absolute;
+	color: #666;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	line-height: 30px;
+	text-align: center;
+	background: #F7F7F7;
+	top: 0px;
+}
+#content .content_r .piao ul li.dian{
+	height: 35px;
+	background: white;
+	top: -5px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top:2px solid red;
+	left: 0px;
+}
+#content .content_r .piao ul li.li1{
+	left: 0px;
+}
+#content .content_r .piao ul li.li2{
+	left: 130px;
+}
+#content .content_r .piao ul li.li3{
+	left: 260px;
+}
+#content .content_r .jieshao{
+	width: 990px;
+	height: auto;
+	overflow: hidden;
+}
+#content .content_r .jieshao span{
+	width: 321px;
+	height: 21px;
+	float: left;
+	color: #666;
+}
+#content .content_r .jieshao a{
+	width: 321px;
+	height: 21px;
+	float: left;
+	color:#005aa0;
+}
+#content .content_r .jieshao .jieshao_top{
+	padding-left: 20px;
+	padding-top: 10px;
+	height: auto;
+	overflow: hidden;
+	border:1px solid #DEDFDE;
+}
+#content .content_r .jieshao .nei{
+	width: 990px;
+	height: auto;
+	overflow: hidden;
+}
+#content .content_r .jieshao .nei img{
+	margin: 0 auto;
+	display: block;
+	margin-top: 20px;
+}
+#content .content_r .canshu{
+	display: none;
+}
+#content .content_r .pingjia{
+	display: none;
+}
+#content .content_r .pingjia ul li{
+	margin-top: 10px;
+	overflow: hidden;
+}
+#content .content_r .pingjia ul li .ping_l{
+	float: left;
+	width: 120px;
+	height: auto;
+	overflow: hidden;
+}
+#content .content_r .pingjia ul li .ping_l a.img{
+	width: 66px;
+	height: 66px;
+	line-height: 66px;
+	display:block;
+	text-align: center;
+	margin: 0 auto;
+	border:1px solid #EBEBEB;
+	position: relative;
+}
+#content .content_r .pingjia ul li .ping_l a.img img{
+	position: absolute;
+	left:6px;
+	top: 5px;
+}
+#content .content_r .pingjia ul li .ping_l a.name{
+	text-align: center;
+	display: block;
+	color: #005AA0;
+}
+#content .content_r .pingjia ul li .ping_l a.lev{
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+	color: #088000;
+}
+#content .content_r .pingjia ul li .ping_l p{
+	float: left;
+	text-align: center;
+	color: #9C9A9C;
+}
+#content .content_r .pingjia ul li .ping_r{
+	width: 850px;
+	float: left;
+	height: auto;
+	overflow: hidden;
+	border:1px solid #D0E4C2;
+	padding-bottom: 20px;
+}
+#content .content_r .pingjia ul li .ping_r h2{
+	height: 21px;
+	border-bottom:1px solid #D0E4C2;
+}
+#content .content_r .pingjia ul li .ping_r h2 p{
+	width: 75px;
+	height: 14px;
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	background: url(../images/newicon20140417.png) -109px -239px no-repeat;
+}
+#content .content_r .pingjia ul li .ping_r h2 span{
+	width: 150px;
+	float: right;
+	line-height:21px;
+	height: 21px;
+}
+#content .content_r .pingjia ul li .ping_r dl{
+	clear: both;
+	padding-left: 10px;
+	line-height: 20px;
+}
+#content .content_r .pingjia ul li .ping_r dl dt{
+	width: 60px;
+	float: left;
+	color: #9C9A9C;
+	text-align: right;
+}
+#content .content_r .pingjia ul li .ping_r dl dd{
+	width: 700px;
+	float: left;
+	color:#666;
+}
+/*主体区域结束

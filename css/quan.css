@@ -1,0 +1,95 @@
+/*选项卡*/
+#xuan{
+	width: 1180px;
+	height: 30px;
+	margin-top: 10px;
+	border-bottom:2px solid #c00;
+	overflow: hidden;
+	padding-left: 30px;
+}
+#xuan a{
+	width: 92px;
+	height: 32px;
+	font-size: 14px;
+	line-height: 30px;
+	background: #F8F8F8;
+	border:1px solid #C9C9C9;
+	float: left;
+	text-align: center;
+	border-radius: 3px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+#xuan a.cur{
+	width: 112px;
+	color: white;
+	background: #D90A00;
+	border:0px;
+}
+/*选项卡结束*/
+/*分类的内容区域*/
+#cate{
+	width: 1210px;
+	height: auto;
+	overflow: hidden;
+}
+#cate .son{
+	width: 595px;
+	height: auto;
+	overflow: hidden;
+	border:1px solid #E9E9E9;
+	float: left;
+	margin-top: 10px;
+	margin-right:5px;
+}
+#cate .son h2{
+	width: 585px;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 15px;
+	background: url(../images/bg_allsort.jpg) repeat-x 0 -162px;
+	position: relative;
+}
+#cate .son h2 span{
+	width: 5px;
+	height: 20px;
+
+	line-height: 28px;
+	background: #D30102;
+	display: block;
+	position: absolute;
+	left: 5px;
+	top:5px;
+}
+#cate .son h2 a{
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+}
+#cate .son div.row{
+	padding-left: 10px;
+	height: auto;
+	overflow: hidden;
+	border-top: 1px dotted #ccc;
+	margin-top: -1px;
+}
+#cate .son div.row span{
+	width: 65px;
+	float: left;
+	color: #CC0000;
+	font-weight: bold;
+	line-height: 34px;
+}
+#cate .son div.row ul{
+	width:510px;
+	float: left;
+	height: auto;
+	overflow: hidden;
+}
+#cate .son div.row ul li{
+	float: left;
+	margin-right: 10px;
+	height: 34px;
+	line-height: 34px;
+}
+/*分类的内容区域结束*/

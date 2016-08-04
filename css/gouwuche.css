@@ -1,0 +1,175 @@
+#content{
+	overflow: hidden;
+	height: auto;
+}
+#content .l{
+	width: 990px;
+	height: 112px;
+	float: left;
+	position: relative;
+}
+#content .l .jiesuan{
+	width: 360px;
+	height: 40px;
+	font: normal 24px/40px \5fae\8f6f\96c5\9ed1;
+	color: #7ABD54;
+	text-indent:50px;
+	margin-top: 40px;
+	position: relative;
+	margin-bottom: 40px;
+	background: url(../images/20130425D.png) 0 -105px no-repeat;
+}
+#content .l .jiesuan .jixu{
+	width: 94px;
+	height:36px;
+	border:1px solid #ccc; 
+	position: absolute;
+	top: 0px;
+	left: 500px;
+	background: url(../images/20130425D.png) -90px -37px no-repeat;
+}
+#content .l .jiesuan .qujie{
+	width:189px;
+	height: 36px;
+	border:1px solid #ccc;
+	position: absolute;
+	top: 0px;
+	left: 600px; 
+	background: url(../images/20130425D.png) 0px 0px no-repeat;
+}
+#content .l .hai{
+	height: auto;
+	overflow: hidden;
+	border:1px solid #ddd;
+	margin-bottom: 15px;
+}
+#content .l .hai h2{
+	height: 30px;
+	padding-left: 10px;
+	font: normal 14px/31px \5fae\8f6f\96c5\9ed1;
+	color: #333;
+	background: #F7F7F7;
+	line-height: 30px;
+}
+#content .l .hai ul{
+	overflow: hidden;
+}
+#content .l .hai ul li{
+	width: 326px;
+	height: 130px;
+	line-height: 18px;
+	float: left;
+	margin-top: 10px;
+}
+#content .l .hai ul li a.img{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+#content .l .hai ul li .you{
+	width:200px;
+	float: right;
+}
+#content .l .hai ul li .you a{
+	line-height: 18px;
+	display: block;
+}
+#content .l .hai ul li .you span{
+	line-height: 18px;
+	display: block;
+}
+#content .l .hai ul li .you a.pingjia{
+	color: #005AA0;
+}
+#content .l .hai ul li .you span.red{
+	color: red;
+}
+#content .l .hai ul li .you span.jia{
+	width: 100px;
+	height: 18px;
+	text-align: center;
+	background: #F6F6F6;
+	border:1px solid #ddd;
+	margin-top: 5px;
+}
+#content .r{
+	width:208px;
+	height: auto;
+	float: right;
+	border:1px solid #ddd;
+	border-top: 2px solid #999;
+	margin-top: 10px;
+}
+#content .r h2{
+	height: 30px;
+	line-height: 30px;
+	font:normal 14px/30px \5fae\8f6f\96c5\9ed1;
+	text-indent: 10px;
+	background: #F7F7F7;
+}
+#content .r .gang{
+	height: auto;
+	overflow: hidden;	
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #999;
+}
+#content .r .gang li a.img{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+#content .r .gang li p{
+	width: 110px;
+	float: right;
+	margin-right: 10px;
+}
+#content .r .gang li p span{
+	color: red;
+}
+#content .r .qita{
+	height: auto;
+	overflow: hidden;	
+	padding-bottom: 10px;
+}
+#content .r .qita li{
+	overflow: hidden;
+	height: auto;
+}
+#content .r .qita li a.img{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+#content .r .qita li p{
+	width: 110px;
+	float: right;
+	margin-right: 10px;
+}
+#content .r .qita li p span{
+	color: red;
+}
+#content .r .jine{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-left: 10px;
+	background: #F7F7F7;
+}
+#content .r .jine p span{
+	display: inline;
+	line-height: 30px;
+	color: red;
+}
+#content .r .jine p span.big{
+	font-size: 15px;
+	font-weight: bold;
+}
+#content .r .jine span.zonge{
+	width: 189px;
+	height: 36px;
+	display:block;
+	background: url(../images/20130425D.png) red no-repeat;
+	margin-bottom: 10px;
+}

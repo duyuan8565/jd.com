@@ -1,0 +1,60 @@
+/*选项卡*/
+#xuan{
+	width: 1180px;
+	height: 30px;
+	margin-top: 10px;
+	border-bottom:2px solid #c00;
+	overflow: hidden;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+#xuan a{
+	width: 92px;
+	height: 32px;
+	font-size: 14px;
+	line-height: 30px;
+	background: #F8F8F8;
+	border:1px solid #C9C9C9;
+	float: left;
+	text-align: center;
+	border-radius: 3px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+#xuan a.cur{
+	width: 112px;
+	color: white;
+	background: #D90A00;
+	border:0px;
+}
+/*选项卡结束*/
+#logo{
+	width: 1195px;
+	height: auto;
+	padding-top: 15px;
+	padding-left: 15px;
+	overflow: hidden;
+	background: #FCFAEB;
+	border:1px solid #F4E0BF;
+}
+#logo ul li{
+	width: 165px;
+	height: 85px;
+	border:1px solid #E2E4E3;
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#logo ul li a{
+	width: 138px;
+	height: 46px;
+	display: block;
+	margin-top: 10px;
+	margin: 0 auto;
+
+}
+#logo ul li a.ming{
+	width: 165px;
+	text-align: center;
+}

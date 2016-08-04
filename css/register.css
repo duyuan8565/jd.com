@@ -1,0 +1,90 @@
+/*logo区域*/
+body{
+	background: #f2f2f2;
+}
+#logo{
+	width: 990px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#logo a{
+	width: 170px;
+	height: 60px;
+	float: left;
+}
+#logo span{
+	width: 111px;
+	height: 46px;
+	margin-top: 10px;
+	float: left;
+	background: url(../images/regist-word.png)  no-repeat;;
+}
+/*logo区域结束*/
+/*主体区域开始*/
+#main{
+	width: 990px;
+	height: 445px;
+	background: red;
+	margin: 0 auto;
+	background: white url(../images/phone-bg.jpg) 750px 50px no-repeat;
+	border:1px solid #DDDDDD;
+	margin-top: 30px;
+}
+#main .l{
+	width:750px;
+	height: 415px;
+	float: left;
+	padding-top: 30px;
+	margin-left: 50px;
+}
+#main .l tr{
+	height: 69px;
+	font-size: 15px;
+	color: #999;
+}
+#main .l tr td{
+	line-height: 38px;
+	vertical-align: middle;
+}
+#main .l tr td span{
+	color: red;
+}
+#main .l tr td.zuo{
+	text-align: left;
+}
+#main .l tr td.you{
+	text-align: right;
+}
+#main .l tr input{
+	width: 270px;
+	height: 38px;
+	border:1px solid #ccc;
+}
+#main .l tr input img{
+	margin-top: 10px;
+}
+#main .l tr input.yuedu{
+	width: 13px;
+	height: 13px;
+	margin-left: 100px;
+}
+#main .l tr input.tijiao{
+	width: 270px;
+	height: 36px;
+	background: url(../images/regist-btn.jpg) no-repeat;
+	margin-left: 100px;
+	clear: both;
+	display: block;
+}
+/*主体区域结束*/
+/*底部区域*/
+#foot{
+	width: 990px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+#foot a{
+	color: #333;
+}
+/*底部区域结束*/

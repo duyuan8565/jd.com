@@ -1,0 +1,212 @@
+#top .top_main{
+	width: 990px;
+	margin: 0 auto;
+}
+/*logo区域*/
+#logo{
+	width: 990px;
+	height: 60px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#logo a.logo{
+	width: 270px;
+	height: 60px;
+	float: left;
+}
+#logo .r{
+	width: 481px;
+	height: 46px;
+	float: right;
+	background: url(../images/step1.png) no-repeat;
+	position: relative;
+	margin-top: 10px;
+}
+#logo .r span{
+	position: absolute;
+	color: #aaaaaa;
+}
+#logo .r span.buzhou1{
+	left: 50px;
+	top: 30px;
+	color: #7abd54;
+}
+#logo .r span.buzhou2{
+	left: 200px;
+	top: 30px;
+}
+#logo .r span.buzhou3{
+	left: 350px;
+	top: 30px;
+}
+/*logo区域结束*/
+#dizhi{
+	width: 988px;
+	height: auto;
+	border:1px solid #ddd;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#dizhi h2{
+	height: 35px;
+	line-height: 35px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family:'微软雅黑';
+	color: #333333;
+	text-indent: 10px;
+	background-color: #f7f7f7;
+}
+#dizhi .di{
+	width: 952px;
+	height: 318px;
+	border:3px solid #f60;
+	background: white;
+	padding-left: 30px;
+}
+.w150{
+	width: 150px;
+}
+.w300{
+	width: 300px;
+}
+#dizhi .di h3{
+	font-weight: bold;
+	font-size: 14px;
+}
+#dizhi .di_show{
+	width: 988px;
+	/*padding-left: 20px;*/
+	text-indent: 20px;
+	height: 100px;
+	border-bottom:1px solid #DDDDDD;
+	/*background-color: #f7f7f7;*/
+}
+#dizhi .di_show h2{
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	font-family:'微软雅黑';
+	color: black;
+	text-indent: 10px;
+	background: none;
+	font-weight: normal;
+}
+#dizhi .di input{
+	border:1px solid #ccc;
+	line-height: 26px;
+}
+#dizhi .di tr{
+	height: 35px;
+	color: #666666;
+}
+#dizhi .di tr .bao{
+	width:140px;
+	height: 30px;
+	background: #E53F42;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	color: white;
+	font-family: '微软雅黑';
+	border-radius: 5px;
+}
+#dizhi .di td.da{
+	font-size: 14px;
+	font-weight: bold;
+}
+#dizhi .qingdan span.first{
+	padding:0px 200px;
+}
+#dizhi .qingdan span{
+	padding:0px 50px;
+	float: left;
+	margin-left: 5px;
+	background: #EEEEEE;
+	line-height: 30px;
+}
+#dizhi .list{
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 10px;
+}
+#dizhi .list .list_l{
+	width: 426px;
+	float: left;
+	height: auto;
+}
+#dizhi .list .list_l a.img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+}
+#dizhi .list .list_l .text{
+	width: 350px;
+	float: right;
+}
+#dizhi .list .list_l .text p{
+	color: #999;
+	height: 54px;
+}
+#dizhi .list .jiage{
+	width: 130px;
+	float: left;
+	text-align: center;
+	height: 54px;
+	line-height: 54px;
+}
+#dizhi .list .youhui{
+	width: 124px;
+	float: left;
+	text-align: center;
+	height: 54px;
+	line-height: 54px;
+}
+#dizhi .list .num{
+	width: 124px;
+	float: left;
+	text-align: center;
+	height: 54px;
+	line-height: 54px;
+}
+#dizhi .list .kucun{
+	width: 148px;
+	float: left;
+	line-height: 54px;
+	height: 54px;
+	text-align: center;
+}
+#dizhi p.jiesuan{
+	text-align: right;
+	padding-right: 20px;
+}
+#dizhi .money{
+	width: 988px;
+	clear: both;
+	height: 50px;
+	background: #f5f5f5;
+}
+#dizhi .money span{
+	width: 200px;
+	float: left;
+	font-size: 18px;
+	font-family: '微软雅黑';
+	line-height: 50px;
+	background: none;
+	margin-left:550px;
+}
+#dizhi .money a{
+	width: 100px;
+	height: 35px;
+	font-size: 18px;
+	font-family:'微软雅黑';
+	background: #E33D3F;
+	line-height: 35px;
+	color: white;
+	margin-top: 5px;
+	float: right;
+	margin-right: 5px;
+	text-align: center;
+}

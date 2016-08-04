@@ -1,0 +1,81 @@
+/*重设浏览器默认样式*/
+
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html{
+	color:#000;background:#fff;
+	-webkit-text-size-adjust: 100%;
+	    -ms-text-size-adjust: 100%;
+}
+
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+/* 要注意表单元素并不继承父级 font 的问题 */
+body,button,input,select,textarea{
+font:12px/1.5 tahoma,arial,\5b8b\4f53;
+}
+input,select,textarea{
+font-size:100%;
+}
+
+/*让标题都自定义, 适应多个系统应用 */
+h1,h2,h3,h4,h5,h6 {
+font-size:100%;
+font-weight:500;
+}
+
+/* 去掉列表前的标识, li 会继承 */
+ol,ul{
+	list-style: none;
+}
+
+/* 去除默认边框 */
+img,fieldset,input{
+	border: 0;/*针对ie6   这个地方不要写none  因为ie6不认识*/
+}
+
+a{
+	color: blue;
+
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+/*表格的边框只有一条*/
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe{
+	display: block;
+	border: none;
+}
+
+/*下面部分是为了简化代码*/
+.hide{
+	display: none;
+}
+
+/*浮动*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*清除浮动*/
+.clear{
+	clear: both;
+}
+/*加上边框*/
+.b{
+	border: 1px solid black;
+}

@@ -1,0 +1,124 @@
+#top .top_main{
+	width: 990px;
+	margin: 0 auto;
+}
+/*logo区域*/
+#logo{
+	width: 990px;
+	height: 60px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#logo a.logo{
+	width: 270px;
+	height: 60px;
+	float: left;
+}
+#logo .r{
+	width: 481px;
+	height: 46px;
+	float: right;
+	background: url(../images/step1.png) no-repeat;
+	position: relative;
+	margin-top: 10px;
+}
+#logo .r span{
+	position: absolute;
+	color: #aaaaaa;
+}
+#logo .r span.buzhou1{
+	left: 50px;
+	top: 30px;
+	color: #7abd54;
+}
+#logo .r span.buzhou2{
+	left: 200px;
+	top: 30px;
+}
+#logo .r span.buzhou3{
+	left: 350px;
+	top: 30px;
+}
+/*logo区域结束*/
+#tishi{
+	width: 990px;
+	height: 77px;
+	margin: 0 auto;
+	background: #F3FDED;
+	border-top: 2px solid #7ABD54;
+}
+#tishi div{
+	width: 990px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+#tishi div h3{
+	width: 400px;
+	color: #7ABD54;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+#tishi div span{
+	width: 400px;
+	float: left;
+}
+#tishi p{
+	color: #aaa;
+	text-indent: 50px;
+}
+#yinhang{
+	width: 984px;
+	height: 337px;
+	background: #FFFDEE;
+	border:3px solid #EDD28B;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#yinhang h2{
+	line-height: 37px;
+	color: #FF6600;
+	line-height: 37px;
+	font: 18px/29px "microsoft yahei";
+	text-indent: 20px;
+}
+#yinhang h2 span{
+	font-size: 14px;
+	color: #999;
+}
+#yinhang p{
+	text-indent: 20px;
+}
+#yinhang .fu{
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 40px;
+	font-size: 14px;
+	color: #999999;
+}
+#yinhang .next{
+	width: 134px;
+	height: 37px;
+	background: #E2393C;
+	line-height: 37px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	font-family: '微软雅黑';
+	margin-top: 20px;
+	margin-left: 50px;
+}
+#yinhang .xuanze{
+	width: 948px;
+	margin: 0 auto;
+	border-top:1px solid #FBE7B3;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+#yinhang .xuanze a.other{
+	padding: 10px 20px;
+	border:2px solid #CCCCCC;
+}

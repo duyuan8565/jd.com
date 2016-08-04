@@ -1,0 +1,263 @@
+#top .top_main{
+	width: 990px;
+	margin: 0 auto;
+}
+/*logo区域*/
+#logo{
+	width: 990px;
+	height: 60px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#logo a.logo{
+	width: 270px;
+	height: 60px;
+	float: left;
+}
+#logo .r{
+	width: 481px;
+	height: 46px;
+	float: right;
+	background: url(../images/step1.png) no-repeat;
+	position: relative;
+	margin-top: 10px;
+}
+#logo .r span{
+	position: absolute;
+	color: #aaaaaa;
+}
+#logo .r span.buzhou1{
+	left: 50px;
+	top: 30px;
+	color: #7abd54;
+}
+#logo .r span.buzhou2{
+	left: 200px;
+	top: 30px;
+}
+#logo .r span.buzhou3{
+	left: 350px;
+	top: 30px;
+}
+/*logo区域结束*/
+/*我的购物车*/
+#mycar{
+	width: 990px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+#mycar h2{
+	color: #666;
+	line-height: 20px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+#mycar h2 span{
+	float: left;
+}
+#mycar h2 a{
+	float: left;
+	background: #EFF0F0;
+	border:1px solid #C3C3C3;
+	border-radius: 2px;
+	padding: 0px 10px;
+}
+#mycar h2 span.big{
+	font-size:20px;
+	font-family: 微软雅黑;
+	margin-right: 20px;
+}
+#mycar .xuanze{
+	width: 990px;
+	margin-top: 15px;
+	height: auto;
+	overflow: hidden;
+	border:1px solid #DDDDDD;
+	border-top:2px solid #999999;
+}
+#mycar .xuanze .bg{
+	width: 990px;
+	background: #F7F7F7;
+	line-height: 35px;
+	height: 35px;
+	overflow: hidden;
+}
+#mycar .xuanze .bg div{
+	float: left;
+	height: 35px;
+}
+#mycar .xuanze  div.all{
+	width: 100px;
+	text-align: center;
+}
+#mycar .xuanze  div.product{
+	width:310px;
+	text-align: center;
+}
+#mycar .xuanze  div.jingjia{
+	width:129px;
+	text-align: right;
+}
+#mycar .xuanze  div.youhui{
+	width:150px;
+	text-align: center;
+}
+#mycar .xuanze  div.dizhi{
+	width:70px;
+	text-align: center;
+}
+#mycar .xuanze  div.num{
+	width:100px;
+	text-align: center;
+}
+#mycar .xuanze  div.caozuo{
+	width:99px;
+	text-align: center;
+}
+#mycar .xuanze .row{
+	width: 990px;
+	height: 73px;
+	background: #F7F7F7;
+	line-height: 35px;
+	overflow: hidden;
+	background: #FFFDEE;
+	border-top: 1px solid #ddd;
+}
+#mycar .xuanze .row div{
+	float: left;
+	height: 35px;
+}
+#mycar .xuanze .bg .all{
+	position: relative;
+}
+#mycar .xuanze .bg .all input{
+	position: absolute;
+	left: 10px;
+	top:10px;
+}
+#mycar .xuanze .bg  .dizhi{
+	position: relative;
+}
+#mycar .xuanze .bg .dizhi select{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+#mycar .xuanze  div.all{
+	position: relative;
+}
+#mycar .xuanze  .row div.all input{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+#mycar .xuanze .dibu{
+	padding-left: 20px;
+	height: 54px;
+}
+#mycar .xuanze .dibu a{
+	color: #005ea7;
+}
+#mycar .xuanze .dibu .jisuan{
+	float: right;
+}
+#mycar .xuanze .dibu .jisuan p{
+	line-height: 25px;
+}
+#mycar .xuanze .dibu .jisuan p span{
+	float: left;
+	width: 150px;
+	line-height: 25px;
+}
+#mycar .xuanze .zong{
+	height: 50px;
+	background: #f7f7f7;
+	text-align: right;
+	font-weight: bold;
+}
+#mycar .xuanze .zong span{
+	color: #EF4C4F;
+	font-size: 20px;
+}
+#mycar  .go{
+	overflow: hidden;
+	height: 66px;
+	padding-top: 20px;
+}
+#mycar   .go .l{
+	border:1px solid #DEDEDE;
+	background: #F6F6F6;
+	padding: 10px 20px;
+}
+#mycar  .go .r{
+	width: 135px;
+	height: 36px;
+	float: right;
+	background: url(../images/btn-check.jpg) no-repeat;
+}
+/*我的购物车结束*/
+#hai{
+	width: 990px;
+	height: 236px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border:1px solid #ddd;
+	position: relative;
+}
+#hai h2{
+	width: 228px;
+	height: 31px;
+	border:1px solid #ddd;
+	text-align: center;
+	line-height: 31px;
+	border-bottom-style: none;
+	position: absolute;
+	background: white;
+	top: -32px;
+	left: 0px;
+	color: red;
+	font-weight: bold;
+}
+#hai .l{
+	width: 28px;
+	height: 235px;
+	background: url(../images/left-2013.png) center center no-repeat; 
+	float: left;
+}
+#hai .tu{
+	width: 878px;
+	float: left;
+	height: 235px;
+}
+#hai .tu ul{
+	width: 878px;
+	margin-left: 15px;
+	overflow: hidden;
+}
+#hai ul li{
+	width: 146px;
+	height: 235px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 20px;
+}
+#hai ul li p{
+	text-align: center;
+}
+#hai ul li a.jia{
+	width: 89px;
+	height: 21px;
+	display: block;
+	margin: 0 auto;
+	background: #F6F6F6;
+	border: 1px solid #DDDDDD;
+	text-align: center;
+	border-radius: 5px;
+}
+#hai .r{
+	width: 28px;
+	height: 235px;
+	background: url(../images/right-2013.png) center center no-repeat; 
+	float: right;
+}
